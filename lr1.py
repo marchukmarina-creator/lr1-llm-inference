@@ -203,7 +203,7 @@ def prepare():
         marker = hashlib.sha256(identifier.encode()).hexdigest()
         instruction = marker + "\nSummarize the following text in one sentence.\n\n"
         count = lambda content: len(tokenizer.apply_chat_template(
-            [{"role": "user", "content": content}], tokenize=True, add_generation_prompt=True))
+            [{"role": "user", "content": content}], tokenize=True, add_generation_prompt=True, return_dict=False))
         take = max(1, target - count(instruction))
         for _ in range(40):
             content = instruction + tokenizer.decode(ids[offset:offset + take])
@@ -673,7 +673,14 @@ def analyze(run_id):
           "[vLLM](https://docs.vllm.ai/en/v0.33.0/), [Gutenberg](https://www.gutenberg.org/ebooks/1342).\n"
     )
     (reports / "report.md").write_text(report, encoding="utf-8")
+    # The independently audited renderer adds the interpretation and preserves
+    # the measured source commit rather than claiming an analysis reruns the GPU.
+    from finalize_report import report_content, markdown
+    report_pages, audit_result = report_content(ROOT)
+    (reports / "report.md").write_text(markdown(report_pages), encoding="utf-8")
+    write_json(reports / "audit.json", audit_result)
     mlflow.set_tracking_uri("sqlite:///" + str((ROOT / "mlflow.db").resolve()))
+    mlflow.set_experiment("lr1")
     with mlflow.start_run(run_id=metadata["mlflow_run_id"]):
         with mlflow.start_run(run_name="analysis", nested=True):
             mlflow.set_tags({"work": "lr1", "series": "analysis", "commit": git("rev-parse", "HEAD"), "source_run": run_id})

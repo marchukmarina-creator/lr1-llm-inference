@@ -1,0 +1,678 @@
+{
+  "arithmetic": {
+    "e2e_s": 2.4,
+    "tpot_s": 0.02,
+    "ttft_s": 0.4
+  },
+  "kv_memory_difference_gib": 0.0012402343750004263,
+  "output_tokens": [
+    64,
+    64
+  ],
+  "prepared_prompt_probe": {
+    "chunks": [
+      {
+        "text": "This",
+        "time": 855.814195714
+      },
+      {
+        "text": " ",
+        "time": 855.860707443
+      },
+      {
+        "text": "1",
+        "time": 855.910359341
+      },
+      {
+        "text": "8",
+        "time": 855.957447027
+      },
+      {
+        "text": "9",
+        "time": 856.00474011
+      },
+      {
+        "text": "4",
+        "time": 856.055580199
+      },
+      {
+        "text": " illustrated",
+        "time": 856.103288312
+      },
+      {
+        "text": " edition",
+        "time": 856.151641278
+      },
+      {
+        "text": " of",
+        "time": 856.199371884
+      },
+      {
+        "text": " *",
+        "time": 856.259809806
+      },
+      {
+        "text": "P",
+        "time": 856.306907232
+      },
+      {
+        "text": "ride",
+        "time": 856.35456056
+      },
+      {
+        "text": " and",
+        "time": 856.40230919
+      },
+      {
+        "text": " Pre",
+        "time": 856.449404948
+      },
+      {
+        "text": "jud",
+        "time": 856.497352157
+      },
+      {
+        "text": "ice",
+        "time": 856.499144283
+      }
+    ],
+    "concurrency": 1,
+    "e2e_s": 0.8218395909999572,
+    "finish_reason": "length",
+    "group": "exp1_256",
+    "id": "check_prompt_256",
+    "input_target": 256,
+    "output_target": 16,
+    "output_tokens": 16,
+    "prompt_tokens": 256,
+    "request_end": 856.499942709,
+    "segment": "check",
+    "status": "completed",
+    "t0": 855.677304692,
+    "t1": 855.814195714,
+    "text": "This 1894 illustrated edition of *Pride and Prejudice",
+    "tn": 856.499144283,
+    "tpot_s": 0.0456632379333314,
+    "ttft_s": 0.13689102199998615,
+    "usage": {
+      "completion_tokens": 16,
+      "completion_tokens_details": null,
+      "prompt_tokens": 256,
+      "prompt_tokens_details": null,
+      "total_tokens": 272
+    }
+  },
+  "records": [
+    {
+      "chunks": [
+        {
+          "text": "The",
+          "time": 849.487537543
+        },
+        {
+          "text": " sky",
+          "time": 849.528580499
+        },
+        {
+          "text": " appears",
+          "time": 849.576169379
+        },
+        {
+          "text": " blue",
+          "time": 849.623826605
+        },
+        {
+          "text": " due",
+          "time": 849.672720679
+        },
+        {
+          "text": " to",
+          "time": 849.722230414
+        },
+        {
+          "text": " a",
+          "time": 849.770646369
+        },
+        {
+          "text": " phenomenon",
+          "time": 849.820818219
+        },
+        {
+          "text": " called",
+          "time": 849.872743136
+        },
+        {
+          "text": " **",
+          "time": 849.919666402
+        },
+        {
+          "text": "Ray",
+          "time": 849.968531205
+        },
+        {
+          "text": "leigh",
+          "time": 850.035718056
+        },
+        {
+          "text": " scattering",
+          "time": 850.085701806
+        },
+        {
+          "text": "**",
+          "time": 850.135689338
+        },
+        {
+          "text": ".",
+          "time": 850.184749566
+        },
+        {
+          "text": " Here",
+          "time": 850.232257687
+        },
+        {
+          "text": "'s",
+          "time": 850.279950947
+        },
+        {
+          "text": " a",
+          "time": 850.327057136
+        },
+        {
+          "text": " simple",
+          "time": 850.374096008
+        },
+        {
+          "text": " explanation",
+          "time": 850.422656738
+        },
+        {
+          "text": ":\n\n",
+          "time": 850.469278073
+        },
+        {
+          "text": "Sun",
+          "time": 850.514443628
+        },
+        {
+          "text": "light",
+          "time": 850.561673262
+        },
+        {
+          "text": ",",
+          "time": 850.609975601
+        },
+        {
+          "text": " which",
+          "time": 850.656431814
+        },
+        {
+          "text": " is",
+          "time": 850.704862229
+        },
+        {
+          "text": " made",
+          "time": 850.75249935
+        },
+        {
+          "text": " up",
+          "time": 850.799212715
+        },
+        {
+          "text": " of",
+          "time": 850.846501576
+        },
+        {
+          "text": " different",
+          "time": 850.895635049
+        },
+        {
+          "text": " colors",
+          "time": 850.940587626
+        },
+        {
+          "text": ",",
+          "time": 850.98653282
+        },
+        {
+          "text": " travels",
+          "time": 851.048266056
+        },
+        {
+          "text": " through",
+          "time": 851.095506443
+        },
+        {
+          "text": " the",
+          "time": 851.143926222
+        },
+        {
+          "text": " Earth",
+          "time": 851.193250708
+        },
+        {
+          "text": "'s",
+          "time": 851.242604656
+        },
+        {
+          "text": " atmosphere",
+          "time": 851.291823273
+        },
+        {
+          "text": ".",
+          "time": 851.341175669
+        },
+        {
+          "text": " These",
+          "time": 851.392292543
+        },
+        {
+          "text": " colors",
+          "time": 851.44181369
+        },
+        {
+          "text": " have",
+          "time": 851.48947223
+        },
+        {
+          "text": " different",
+          "time": 851.542477904
+        },
+        {
+          "text": " wavelengths",
+          "time": 851.616287691
+        },
+        {
+          "text": "—",
+          "time": 851.683860342
+        },
+        {
+          "text": "blue",
+          "time": 851.733603375
+        },
+        {
+          "text": " light",
+          "time": 851.781534204
+        },
+        {
+          "text": " has",
+          "time": 851.829672858
+        },
+        {
+          "text": " a",
+          "time": 851.876644502
+        },
+        {
+          "text": " shorter",
+          "time": 851.923237175
+        },
+        {
+          "text": " wavelength",
+          "time": 851.973392714
+        },
+        {
+          "text": " than",
+          "time": 852.019934296
+        },
+        {
+          "text": " red",
+          "time": 852.076757828
+        },
+        {
+          "text": " light",
+          "time": 852.127756012
+        },
+        {
+          "text": ".",
+          "time": 852.175137401
+        },
+        {
+          "text": " When",
+          "time": 852.220987301
+        },
+        {
+          "text": " sunlight",
+          "time": 852.269257064
+        },
+        {
+          "text": " enters",
+          "time": 852.315767205
+        },
+        {
+          "text": " the",
+          "time": 852.362995301
+        },
+        {
+          "text": " atmosphere",
+          "time": 852.41048222
+        },
+        {
+          "text": ",",
+          "time": 852.460451364
+        },
+        {
+          "text": " gas",
+          "time": 852.505826828
+        },
+        {
+          "text": " molecules",
+          "time": 852.551731714
+        },
+        {
+          "text": " and",
+          "time": 852.554050986
+        }
+      ],
+      "concurrency": 1,
+      "e2e_s": 8.177441584999997,
+      "finish_reason": "length",
+      "group": "check",
+      "id": "warmup_check",
+      "input_target": 0,
+      "output_target": 64,
+      "output_tokens": 64,
+      "prompt_tokens": 18,
+      "request_end": 852.556970619,
+      "segment": "check",
+      "status": "completed",
+      "t0": 844.376609401,
+      "t1": 849.487537543,
+      "text": "The sky appears blue due to a phenomenon called **Rayleigh scattering**. Here's a simple explanation:\n\nSunlight, which is made up of different colors, travels through the Earth's atmosphere. These colors have different wavelengths—blue light has a shorter wavelength than red light. When sunlight enters the atmosphere, gas molecules and",
+      "tn": 852.554050986,
+      "tpot_s": 0.04867481655555496,
+      "ttft_s": 5.110928142000034,
+      "usage": {
+        "completion_tokens": 64,
+        "completion_tokens_details": null,
+        "prompt_tokens": 18,
+        "prompt_tokens_details": null,
+        "total_tokens": 82
+      }
+    },
+    {
+      "chunks": [
+        {
+          "text": "The",
+          "time": 852.664244679
+        },
+        {
+          "text": " sky",
+          "time": 852.711921981
+        },
+        {
+          "text": " appears",
+          "time": 852.758781029
+        },
+        {
+          "text": " blue",
+          "time": 852.804906374
+        },
+        {
+          "text": " due",
+          "time": 852.850834088
+        },
+        {
+          "text": " to",
+          "time": 852.898644052
+        },
+        {
+          "text": " a",
+          "time": 852.943882238
+        },
+        {
+          "text": " phenomenon",
+          "time": 852.990383349
+        },
+        {
+          "text": " called",
+          "time": 853.042042644
+        },
+        {
+          "text": " **",
+          "time": 853.092610902
+        },
+        {
+          "text": "Ray",
+          "time": 853.149806683
+        },
+        {
+          "text": "leigh",
+          "time": 853.195900426
+        },
+        {
+          "text": " scattering",
+          "time": 853.241287772
+        },
+        {
+          "text": "**",
+          "time": 853.287647084
+        },
+        {
+          "text": ".",
+          "time": 853.333426192
+        },
+        {
+          "text": " Here",
+          "time": 853.378960771
+        },
+        {
+          "text": "'s",
+          "time": 853.424392488
+        },
+        {
+          "text": " a",
+          "time": 853.473671114
+        },
+        {
+          "text": " simple",
+          "time": 853.523113984
+        },
+        {
+          "text": " explanation",
+          "time": 853.569699831
+        },
+        {
+          "text": ":\n\n",
+          "time": 853.616565248
+        },
+        {
+          "text": "Sun",
+          "time": 853.663841372
+        },
+        {
+          "text": "light",
+          "time": 853.711448997
+        },
+        {
+          "text": ",",
+          "time": 853.759082288
+        },
+        {
+          "text": " which",
+          "time": 853.810177766
+        },
+        {
+          "text": " is",
+          "time": 853.859675956
+        },
+        {
+          "text": " made",
+          "time": 853.908457848
+        },
+        {
+          "text": " up",
+          "time": 853.957026208
+        },
+        {
+          "text": " of",
+          "time": 854.011163748
+        },
+        {
+          "text": " different",
+          "time": 854.059738066
+        },
+        {
+          "text": " colors",
+          "time": 854.11088139
+        },
+        {
+          "text": ",",
+          "time": 854.177374506
+        },
+        {
+          "text": " travels",
+          "time": 854.224602136
+        },
+        {
+          "text": " through",
+          "time": 854.270500337
+        },
+        {
+          "text": " the",
+          "time": 854.315752604
+        },
+        {
+          "text": " Earth",
+          "time": 854.361285249
+        },
+        {
+          "text": "'s",
+          "time": 854.406961103
+        },
+        {
+          "text": " atmosphere",
+          "time": 854.455488313
+        },
+        {
+          "text": ".",
+          "time": 854.498566645
+        },
+        {
+          "text": " These",
+          "time": 854.544105151
+        },
+        {
+          "text": " colors",
+          "time": 854.588140191
+        },
+        {
+          "text": " have",
+          "time": 854.634624428
+        },
+        {
+          "text": " different",
+          "time": 854.68021664
+        },
+        {
+          "text": " wavelengths",
+          "time": 854.724940414
+        },
+        {
+          "text": "—",
+          "time": 854.769743278
+        },
+        {
+          "text": "blue",
+          "time": 854.816816902
+        },
+        {
+          "text": " light",
+          "time": 854.864962076
+        },
+        {
+          "text": " has",
+          "time": 854.912227055
+        },
+        {
+          "text": " a",
+          "time": 854.959071615
+        },
+        {
+          "text": " shorter",
+          "time": 855.005998702
+        },
+        {
+          "text": " wavelength",
+          "time": 855.053630167
+        },
+        {
+          "text": " than",
+          "time": 855.098336301
+        },
+        {
+          "text": " red",
+          "time": 855.14538163
+        },
+        {
+          "text": " light",
+          "time": 855.20243621
+        },
+        {
+          "text": ".",
+          "time": 855.254699104
+        },
+        {
+          "text": " When",
+          "time": 855.301178512
+        },
+        {
+          "text": " sunlight",
+          "time": 855.347541989
+        },
+        {
+          "text": " enters",
+          "time": 855.393688134
+        },
+        {
+          "text": " the",
+          "time": 855.440189706
+        },
+        {
+          "text": " atmosphere",
+          "time": 855.48824134
+        },
+        {
+          "text": ",",
+          "time": 855.534094315
+        },
+        {
+          "text": " gas",
+          "time": 855.580293527
+        },
+        {
+          "text": " molecules",
+          "time": 855.626417198
+        },
+        {
+          "text": " and",
+          "time": 855.628806353
+        }
+      ],
+      "concurrency": 1,
+      "e2e_s": 3.07181948799996,
+      "finish_reason": "length",
+      "group": "check",
+      "id": "warmup_check",
+      "input_target": 0,
+      "output_target": 64,
+      "output_tokens": 64,
+      "prompt_tokens": 18,
+      "request_end": 855.629791471,
+      "segment": "check",
+      "status": "completed",
+      "t0": 852.556986865,
+      "t1": 852.664244679,
+      "text": "The sky appears blue due to a phenomenon called **Rayleigh scattering**. Here's a simple explanation:\n\nSunlight, which is made up of different colors, travels through the Earth's atmosphere. These colors have different wavelengths—blue light has a shorter wavelength than red light. When sunlight enters the atmosphere, gas molecules and",
+      "tn": 855.628806353,
+      "tpot_s": 0.0470565345079353,
+      "ttft_s": 0.10725781400003598,
+      "usage": {
+        "completion_tokens": 64,
+        "completion_tokens_details": null,
+        "prompt_tokens": 18,
+        "prompt_tokens_details": null,
+        "total_tokens": 82
+      }
+    }
+  ],
+  "texts_match": true
+}

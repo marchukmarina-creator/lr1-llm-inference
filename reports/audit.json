@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "measurements": 320,
+  "failed": 0,
+  "warmups_excluded": 16,
+  "groups": 16,
+  "commit": "fdb7114c7fbdd62546e546b283267762d6fed438",
+  "checked": "timestamps, N-1, usage lengths, CSV/summary agreement, all input hashes, warmups, cache prompts",
+  "example": {
+    "id": "exp1_256_000",
+    "t0": 868.767339413,
+    "t1": 868.904122157,
+    "tn": 869.597105014,
+    "N": 16,
+    "ttft_s": 0.13678274400001555,
+    "tpot_s": 0.04619885713333739
+  }
+}

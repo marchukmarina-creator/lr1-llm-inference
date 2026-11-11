@@ -1,0 +1,20 @@
+{
+  "datasets": {
+    "pride_and_prejudice": {
+      "author": "Jane Austen",
+      "gutenberg_id": 1342,
+      "planned_measurements": 320,
+      "prompts_file": "data/prompts.jsonl",
+      "prompts_sha256": "c24592c3ee88d6683ed392311f74280b2262fe7bff99d62b54eed984f811e177",
+      "selection": "All original bytes retained; text after START tokenized; no records excluded",
+      "source": "https://www.gutenberg.org/ebooks/1342.txt.utf-8",
+      "source_file": "data/pride_and_prejudice.txt",
+      "source_sha256": "3f6bb9d6f78e0293b56acd4714dd68cb7d6d1d293402031ce9d5a216bcaf9d75",
+      "tokenizer_model": "Qwen/Qwen3-4B-Instruct-2507",
+      "tokenizer_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+      "warmups": 16,
+      "warmups_sha256": "20bb8311d6d3f0f0cf63273e85dfb9a5a88660778195f1317ff2c2c2861df76b",
+      "work": "Pride and Prejudice"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "command": "vllm serve Qwen/Qwen3-4B-Instruct-2507 --dtype half --max-model-len 32768 --gpu-memory-utilization 0.90 --max-num-seqs 32 --max-num-batched-tokens 2048 --enforce-eager --enable-prefix-caching --enable-auto-tool-choice --tool-call-parser hermes --host 127.0.0.1 --port 8000",
+  "cpu_threads_note": "No CPU thread flag supplied; server defaults apply; environment recorded.",
+  "enforce_eager": true,
+  "gpu": "Tesla T4, 15360 MiB, 580.82.07",
+  "head_dim": 128,
+  "kv_32768_gib": 4.5,
+  "kv_bytes_per_token": 147456,
+  "kv_capacity_tokens": 38384,
+  "kv_memory_calculated_gib": 5.271240234375,
+  "kv_memory_log_gib": 5.27,
+  "logical_cpu_count": 2,
+  "max_model_len": 32768,
+  "max_num_batched_tokens": 2048,
+  "max_num_seqs": 32,
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "model_config_hashes": {
+    "config.json": "5beea1a4a34c62782bfb2f911c606741a3bab8f92d80a118fa053c28af12e8ba",
+    "generation_config.json": "835fffe355c9438e7a25be099b3fccaa98350b83451f9fd2d99512e74f1ade48",
+    "tokenizer_config.json": "a62ff0a2472a0fa1b8eaabcb57c59b58afa42a22831dc141400b6e0cf2b65ce3"
+  },
+  "num_hidden_layers": 36,
+  "num_key_value_heads": 8,
+  "original_startup_revision_pinned": false,
+  "prefix_caching": true,
+  "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "revision_evidence": "Hugging Face cached snapshot resolved locally at preparation",
+  "server": "vLLM",
+  "server_version": "0.33.0",
+  "thread_environment": {
+    "MKL_NUM_THREADS": null,
+    "OMP_NUM_THREADS": null,
+    "OPENBLAS_NUM_THREADS": null
+  },
+  "weight_file_bytes": 8045591552,
+  "weight_format": "FP16 (loaded with --dtype half)"
+}
