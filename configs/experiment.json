@@ -1,0 +1,13 @@
+{
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "base_url": "http://127.0.0.1:8000/v1",
+  "prompt_lengths": [256, 1024, 4096, 8192, 16384],
+  "output_lengths": [16, 64, 256, 1024],
+  "concurrency": [1, 2, 4, 8, 16, 32],
+  "repeats": 5,
+  "ttft_limit_s": 2.0,
+  "tpot_limit_s": 0.1,
+  "timeout_s": 600,
+  "server_log": "/content/vllm.log",
+  "server_command": "/content/server_command.txt"
+}
