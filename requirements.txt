@@ -1,0 +1,8 @@
+vllm==0.33.0
+mlflow==3.18.0
+openai
+transformers
+matplotlib
+# Exact versions of all packages are captured in requirements.lock.txt by prepare.
+# Use an isolated environment; installing into the existing Colab is not necessary
+# except for missing mlflow and matplotlib.
